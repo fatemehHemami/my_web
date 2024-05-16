@@ -1,0 +1,107 @@
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif; // تنظیم فونت
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+
+}
+
+.footer-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase; // بزرگ‌نویسی عناوین
+}
+
+.footer-section p,
+.footer-section span {
+    font-size: 0.9rem;
+    margin-bottom: 10px; // تنظیم فاصله
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact span {
+    display: flex; // استفاده از flex برای ترازبندی
+    display: block;
+}
+
+.socials a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s; // انیمیشن تغییر رنگ در هاور
+
+    &:hover {
+        color: #32cd32; // تغییر رنگ هنگام هاور
+    }
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: #32cd32; // تغییر رنگ در هاور
+    }
+}
+
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555; // مرز برای فرم}
+    background-color: transparent; // پس‌زمینه شفاف
+    color: #fff;
+
+    &:focus {
+        outline: none;
+        border-color: #32cd32; // تغییر رنگ مرز هنگام فوکوس
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+
+    .contact-form button {
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #fff; // تغییر رنگ دکمه هنگام هاور
+        }
+    }
+}
+
+.footer-bottom {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
