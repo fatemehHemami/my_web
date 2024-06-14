@@ -10,8 +10,6 @@ import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
-
-
 registerLocaleData(en);
 
 export const appConfig: ApplicationConfig = {

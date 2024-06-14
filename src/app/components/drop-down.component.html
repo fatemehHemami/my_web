@@ -1,0 +1,24 @@
+<a nz-dropdown [nzDropdownMenu]="menu" class="dropdown-link">
+    <i class="fas fa-bars"></i>
+    <span nz-icon nzType="down"></span>
+</a>
+<nz-dropdown-menu #menu="nzDropdownMenu">
+    <ul nz-menu nzSelectable>
+        <li nz-menu-item>
+            <span>خانه</span>
+            <i class="fas fa-home"></i>
+        </li>
+        <li nz-menu-item>
+            <span>درباره ما</span>
+            <i class="fas fa-info-circle"></i>
+        </li>
+        <li nz-menu-item>
+            <span>نمونه کار</span>
+            <i class="fas fa-briefcase"></i>
+        </li>
+        <li nz-menu-item>
+            <span>تماس با ما</span>
+            <i class="fas fa-phone"></i>
+        </li>
+    </ul>
+</nz-dropdown-menu>
